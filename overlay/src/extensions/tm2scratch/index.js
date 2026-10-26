@@ -1,5 +1,5 @@
 /* TM2Scratch by Junya Ishihara (champierre), https://github.com/champierre/tm2scratch, AGPL-3.0.
- * Copied into CCG Blocks with these changes: module paths adjusted for scratch-gui, ml5 loaded from this site instead of stretch3.github.io. */
+ * Copied into CCG Blocks with these changes: module paths adjusted for scratch-gui, ml5 loaded from this site instead of stretch3.github.io, category renamed "Teachable Machine". */
 const ArgumentType = require('../../../node_modules/scratch-vm/src/extension-support/argument-type');
 const BlockType = require('../../../node_modules/scratch-vm/src/extension-support/block-type');
 const Cast = require('../../../node_modules/scratch-vm/src/util/cast');
@@ -312,7 +312,7 @@ class Scratch3TM2ScratchBlocks {
 
         return {
             id: 'tm2scratch',
-            name: 'TM2Scratch',
+            name: 'Teachable Machine', // CCG: matches the Extensions library and course materials
             blockIconURI: blockIconURI,
             blocks: [
                 {
