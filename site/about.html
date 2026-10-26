@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About CCG Blocks</title>
+<link rel="icon" href="static/favicon.ico">
+<style>
+:root{--bg:#FAF6EF;--ink:#241A1D;--slate:#5F5358;--brand:#6E1E2B;--gold:#B98A3C;--line:#EAE0D0}
+@media (prefers-color-scheme:dark){:root{--bg:#181113;--ink:#F2E9E3;--slate:#BBAEB2;--brand:#E59AA6;--gold:#D4AF6A;--line:#3A2C30;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px max(16px,env(safe-area-inset-left))}
+h1{font-family:Georgia,serif;color:var(--brand);margin:0 0 4px}
+h2{font-family:Georgia,serif;font-size:1.2rem;margin:28px 0 6px}
+.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600}
+a{color:var(--brand)}
+li{margin:.3rem 0}
+footer{margin-top:36px;border-top:1px solid var(--line);padding-top:12px;font-size:.85rem;color:var(--slate)}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">The Cambridge Consultancy Group</div>
+<h1>About CCG Blocks</h1>
+<p>CCG Blocks is the block-coding editor used in the CCG AI Programme. It is a modified version of the open-source Scratch 3 editor, with an added extension that runs image and sound models trained in Google's Teachable Machine.</p>
+
+<h2>Credits</h2>
+<ul>
+<li><b>Scratch editor</b> (scratch-gui, scratch-vm and scratch-blocks) by the Scratch Foundation, licensed under the GNU Affero General Public License v3. CCG Blocks is not made, endorsed or supported by the Scratch Foundation or MIT. Scratch is a trademark of MIT.</li>
+<li><b>TM2Scratch</b> extension by Junya Ishihara, licensed under the GNU Affero General Public License v3.</li>
+<li><b>ml5.js</b> machine learning library, under the ml5.js licence.</li>
+<li><b>Teachable Machine</b> is a Google tool, used separately at teachablemachine.withgoogle.com to train models.</li>
+</ul>
+
+<h2>Source code</h2>
+<p>The complete source code for this editor, including every CCG change, is available at <a href="https://github.com/CambridgeConsultancyGroup/ccg-blocks">github.com/CambridgeConsultancyGroup/ccg-blocks</a> under the GNU Affero General Public License v3.</p>
+
+<h2>Your projects and your data</h2>
+<ul>
+<li>Projects are saved to your own computer with File, then Save to your computer. Nothing is stored on CCG servers.</li>
+<li>Camera and microphone are used only in your browser while the editor is open.</li>
+<li>Teachable Machine models load from the link you paste. Training images and recordings are never sent to CCG.</li>
+</ul>
+<footer><a href="/">ccg.education</a> · <a href="./">Back to the editor</a></footer>
+</main></body>
+</html>
